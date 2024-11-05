@@ -10,4 +10,6 @@ We can identification the system use Least Squares Method, define
 $$\theta=[a_{1}, a_{2}, ..., a_{n}, b_{0}, b_{1}, ..., b_{s}]^{T}$$
 
 You can use LSM by RLSM.m, which is described by comments.
-## 
+## Extended Least Squares method
+For a simple discrete time linear system
+$$z(k)=-a_{1} z(k-1)-a_{2} z(k-2)-...-a_{n} z(k-n)+b_{0} u(k)+b_{1} u(k-1)+...+b_{s} u(k-n)+w(k)+c_{1} w(k-1)+...+c_{m} w(k-m)$$
