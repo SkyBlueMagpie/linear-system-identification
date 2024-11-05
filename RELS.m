@@ -1,6 +1,6 @@
 function [theta2,P2,omega] = RELS(theta1,P1,phi)
 %Recursive extended least squares method
-%y(k)+a1y(k-1)+...+any(k-n)=b0u(k)+b1u(k-1)+...+bsu(k-n)+w(k)+c1w(k-1)+...+cmw(k-n)
+%y(k)+a1y(k-1)+...+any(k-n)=b0u(k)+b1u(k-1)+...+bsu(k-s)+w(k)+c1w(k-1)+...+cmw(k-m)
 %theta'=[a1,...,an,b0,...,bn,...,c1,...,cn]
 %phi'=[z(k),z(k-1),...,z(k-n),u(k),...,u(k-s),w(k-1),...,w(k-m)]
 %You should add omega to vector phi's w(k).
