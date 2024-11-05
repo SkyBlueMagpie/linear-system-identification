@@ -1,7 +1,7 @@
 function [theta2,P2] = RLSM(theta1,P1,phi)
 %Recursive least squares algorithm
 %All vectors are column vectors
-%y(k)+a1y(k-1)+...+any(k-n)=b0u(k)+b1u(k-1)+...+bsu(k-n)+w(k)
+%y(k)+a1y(k-1)+...+any(k-n)=b0u(k)+b1u(k-1)+...+bsu(k-s)+w(k)
 %phi is [z(N+1),z(N-1),...,z(N+1-n),u(N+1),...,u(N+1-s)]
 %theta'=[a1,...,an,b0,...,bn,...,c1,...,cn]
 %You may need to fill in the 0 for the start of the input/output signal(phi) yourself.
